@@ -3,3 +3,24 @@ body {
   background: black;
   width: fit-content;
 }
+
+main {
+  position: relative;
+}
+
+a {
+  position: absolute;
+}
+
+a:hover,
+a:focus {
+  background-color: hsl(0deg 0% 0% / 20%);
+}
+
+p {
+  position: absolute;
+  font-size: 24px;
+  font-family: "Handlee", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
