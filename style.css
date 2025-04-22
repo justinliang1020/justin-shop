@@ -6,6 +6,13 @@ body {
 
 main {
   position: relative;
+  zoom: 50%;
+}
+
+@media (max-width: 600px) {
+  main {
+    zoom: 35%;
+  }
 }
 
 a {
